@@ -1,0 +1,40 @@
+.add__product__page .MuiFormControl-root {
+    width: 100%;
+}
+
+.add__product__page label{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.add__product__page label span{
+    color: red;
+}
+
+.add__product__page .d_flex{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.add__product__page .pos__relative{
+    position: relative;
+}
+
+.add__product__page .pos__relative .position__btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #2196f3;
+    color: #FFF;
+    height: 100%;
+    width: 100px;
+}
+
+.add__product__page .Save__Btn{
+    padding: 10px 20px;
+    width: 200px;
+    text-transform: capitalize;
+    font-size: 18px;
+    line-height: 28px;
+}
